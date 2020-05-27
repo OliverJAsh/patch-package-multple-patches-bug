@@ -1,0 +1,17 @@
+diff --git a/node_modules/getstream/types/getstream/index.d.ts b/node_modules/getstream/types/getstream/index.d.ts
+index c73f0e5..7a5417e 100644
+--- a/node_modules/getstream/types/getstream/index.d.ts
++++ b/node_modules/getstream/types/getstream/index.d.ts
+@@ -484,6 +484,12 @@ export namespace errors {
+      * Not typically instantiated by app developers.
+      */
+   }
++  class StreamApiError {
++    /**
++     * Construct StreamApiError.
++     * Not typically instantiated by app developers.
++     */
++  }
+ }
+ 
+ export interface Activity {

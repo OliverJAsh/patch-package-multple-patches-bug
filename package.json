@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "getstream": "^4.5.2",
+    "patch-package": "^6.2.2"
+  }
+}
